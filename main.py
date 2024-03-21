@@ -23,7 +23,7 @@ def compress():
 
       maxSide = max(width, height)
 
-      while maxSide > 700:
+      while maxSide > 900:
         width, height = resizedImg.size
         maxSide = max(width, height)
         resizedImg = resizedImg.resize((int(width//factor), int(height//factor)))
